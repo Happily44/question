@@ -1,6 +1,6 @@
 function openInGoogleMapsApp() {
     const placeID = "ChIJBWueYZaPQTURzBI1Tcb36Uw"; // Place IDを設定
-    const googleMapsAppURL = "comgooglemaps://?q=place_id:${placeID}"; // Googleマップアプリ用スキーム
+    const googleMapsAppURL = "comgooglemaps://?q=place_id:ChIJBWueYZaPQTURzBI1Tcb36Uw"; // Googleマップアプリ用スキーム
     const googleMapsReviewURL = "https://search.google.com/local/writereview?placeid=ChIJBWueYZaPQTURzBI1Tcb36Uw"; // Web版レビュー投稿URL
 
     // Googleマップアプリ専用のスキームで口コミページを開く
