@@ -3,13 +3,7 @@ function openInGoogleMapsApp() {
     const googleMapsAppURL = "comgooglemaps://?q=ChIJBWueYZaPQTURzBI1Tcb36Uw"; // Googleマップアプリ用スキーム
     const googleMapsReviewURL = "https://search.google.com/local/writereview?placeid=ChIJBWueYZaPQTURzBI1Tcb36Uw"; // Web版レビュー投稿URL
 
-    // Googleマップアプリ専用のスキームで口コミページを開く
-    window.location.href = googleMapsAppURL;
-
-    // アプリがインストールされていない場合にWeb版にフォールバック
-    setTimeout(() => {
-        window.location.href = googleMapsReviewURL;
-    }, 500);
+  　window.location.href = googleMapsReviewURL;
 }
 
 function handleNext() {
